@@ -65,7 +65,7 @@
 
         function getTimeRemaining(endtime) {
           var t =
-            Date.parse("24 Sep 2021 00:00:00 GMT") - Date.parse(new Date());
+            Date.parse("30 Sep 2021 00:00:00 GMT") - Date.parse(new Date());
           var seconds = Math.floor((t / 1000) % 60);
           var minutes = Math.floor((t / 1000 / 60) % 60);
           var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
